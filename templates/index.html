@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HW: Python Finance Info - CMPE 285</title>
+</head>
+<body>
+<p>&nbsp;</p>
+    <h1>Python Finance Information</h1>
+    <p>CMPE 285 | Karan Tyagi</p>
+
+    <form action="/" method="POST">
+      <table>
+        <tbody>
+          <tr>
+            <td>
+              <h2>Input: </h2><br>
+
+              Please Enter Ticket Symbol:&nbsp;<input name="tickerSymbol" type="text"/> <br><br>
+
+              <input type="submit" value="Calculate" /> <input type="reset" />
+
+              <h2>Output: </h2><br>
+
+              {{currentDay}}&nbsp;{{currentDate}}&nbsp;{{currentTime}}&nbsp;{{currentTimezone}}&nbsp;{{currentYear}}<br>
+              <br>
+              {{companyName}}&nbsp;<br>
+              <br>
+              {{stockPrice}}&nbsp;<br>
+                {{valueChange}} <br>
+                {{percentChange}} <br>
+                {{errorMessage}}
+
+
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+    </form>
+
+    <p></p>
+</body>
+</html>
